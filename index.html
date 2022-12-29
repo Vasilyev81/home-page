@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
   <nav>
     <h1>Andrey Vasilyev</h1>
     <ul class="navigation">
@@ -31,7 +32,9 @@
       <ion-icon class="bars" name="menu-outline"></ion-icon>
     </button>
   </nav>
+
   <!-- Hero Section -->
+
   <section class="hero" id="about">
     <img src="assets/images/me.jpg" alt="andrey-vasilyev" loading="lazy" class="hero-img" />
     <div class="bio animate__animated animate__shakeX">
@@ -42,7 +45,9 @@
       </p>
     </div>
   </section>
+
   <!-- More about -->
+
   <section class="more-about">
     <h2>More About Me</h2>
     <p>
@@ -59,7 +64,9 @@
       displays over any other element on the web page.
     </p>
   </section>
+
   <!-- Skills section -->
+
   <section class="skills" id="skills">
     <h2 class="skill-header">My Top Skills</h2>
 
@@ -113,6 +120,30 @@ of the famous Russian cartoon "Well, wait!" produced in the USSR.
     </div>
   </section>
   <!-- Contact section -->
+<section class="contact" id="contact">
+  <h2>Get In Touch With Me</h2>
+  <div class="contact-form-container">
+    <div class="contact-form">
+      <form action="https://formspree.io/f/xyylngw" method="POST">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="sender-name" placeholder=" Enter Your Name" class="input-field" required />
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="sender-email" placeholder=" Enter Your Email" class="input-field"
+            required />
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea id="message" cols="60" rows="10" placeholder=" Enter Your Message" name="message" class="input-field"
+            required></textarea>
+        </div>
+        <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+      </form>
+    </div>
+  </div>
+</section>
 
   <!-- Social accounts - Fixed to the right -->
 
